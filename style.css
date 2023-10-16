@@ -3,6 +3,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+h2 {
+  margin: auto;
+padding-left: 2em;
+padding-top: 2em;
+text-align: left;
+}
   
 html {
     box-sizing: border-box;
@@ -20,7 +27,7 @@ html {
   
   nav {
     width: 100%;
-    background-color: rgb(27, 23, 255);
+    background-color:#1DB275;
     padding-left: 30px;
     padding-right: 10px;
   }
@@ -62,3 +69,39 @@ html {
     justify-content: space-between;
     align-items: center;
   }
+
+
+.d-flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#about-company {
+  font-size: large;
+  width: 40vw; 
+  padding: 2vw;
+  float: left;
+  text-align: center;
+
+}
+
+#index-hero-img {
+  width: 50vw;
+  float: right;
+  margin: auto; 
+  padding: 2vh;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+  text-align: center; 
+
+#socials a {
+    text-decoration: none;
+  }
+  
+<!-- images -->
+
