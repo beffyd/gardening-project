@@ -90,6 +90,7 @@ html {
   float: right;
   margin: auto; 
   padding: 2vh;
+  padding-right: 3em;
 }
 
 #footer {
@@ -101,7 +102,24 @@ html {
 
 #socials a {
     text-decoration: none;
+    font-size: xx-large;
+    color: #1DB275;
+    padding-bottom: 0.5em;
   }
   
 <!-- images -->
 
+<!-- MEDIA QUERIES [NOT WORKING MAIN IMG] --> 
+@media screen and (min-width: 360px)  {
+
+#index-hero-img {
+  padding: 50px; 
+   
+}
+
+}
+
+#prices {
+   padding: 2em;
+   padding-left:2vw; 
+}
