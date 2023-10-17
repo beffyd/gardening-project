@@ -1,4 +1,4 @@
-<!-- Navbar -->
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -81,24 +81,48 @@ html {
   width: 40vw; 
   padding: 2vw;
   float: left;
-  text-align: center;
+  text-align: left;
+  
 
+}
+
+fieldset {
+  width: fit-content;
+  margin: 2em; 
+  border-color: #1DB275;
+  margin-left: 5em;
+}
+
+p, h2 { 
+  font-family: Roboto, sans-serif;
+}
+
+#about-us {
+  padding-left: 5em;
 }
 
 #index-hero-img {
-  width: 50vw;
-  float: right;
-  margin: auto; 
-  padding: 2vh;
-  padding-right: 3em;
+  width: 40%;
+  float: right; 
+  margin: 20px; 
+  padding-right: 50px;
+  display: flex;
+  
+}
+
+.landing-image {
+  position: relative; top: -54.5vh;
 }
 
 #footer {
-  position: absolute;
+  position: sticky; 
   bottom: 0;
   width: 100%;
-  height: 2.5rem;  
+  height: 50vh;  
   text-align: center; 
+  padding-top: 20em; 
+  padding-bottom: 0.5px;
+  padding-left: 45vw;
 
 #socials a {
     text-decoration: none;
@@ -106,20 +130,8 @@ html {
     color: #1DB275;
     padding-bottom: 0.5em;
   }
-  
-<!-- images -->
 
-<!-- MEDIA QUERIES [NOT WORKING MAIN IMG] --> 
-@media screen and (min-width: 360px)  {
-
-#index-hero-img {
-  padding: 50px; 
-   
-}
-
-}
-
-#prices {
-   padding: 2em;
-   padding-left:2vw; 
-}
+  table, th, td {
+    border: 1px solid;
+    color:#1DB275; 
+  }
