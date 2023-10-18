@@ -5,7 +5,7 @@
 }
 
 h2 {
-  margin: auto;
+margin: auto;
 padding-left: 2em;
 padding-top: 2em;
 text-align: left;
@@ -94,11 +94,18 @@ fieldset {
 }
 
 p, h2 { 
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif; 
+  
+}
+
+#jobs-and-prices {
+  text-align: center;
+  padding-right: 3rem;
 }
 
 #about-us {
   padding-left: 5em;
+  text-align: left;
 }
 
 #index-hero-img {
@@ -119,7 +126,7 @@ p, h2 {
   bottom: 0;
   width: 100%;
   height: 50vh;  
-  text-align: center; 
+   
   padding-top: 20em; 
   padding-bottom: 0.5px;
   padding-left: 45vw;
@@ -131,7 +138,23 @@ p, h2 {
     padding-bottom: 0.5em;
   }
 
-  table, th, td {
+  table, th, td, p, {
     border: 1px solid;
-    color:#1DB275; 
+    color: #1DB275; 
+    font-family: Roboto, sans-serif;
   }
+
+#prices {
+  padding-left: 20em;
+}
+
+.header {
+  text-align: center;
+}
+
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
