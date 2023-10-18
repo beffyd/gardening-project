@@ -95,6 +95,7 @@ fieldset {
 
 p, h2 { 
   font-family: Roboto, sans-serif; 
+  text-align: center;
   
 }
 
@@ -157,4 +158,21 @@ p, h2 {
   margin: auto;
   width: 50%;
   padding: 10px;
+}
+
+
+.map {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  text-align: center;
+}
+
+#map {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  text-align: center;
 }
