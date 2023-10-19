@@ -30,6 +30,7 @@ html {
     background-color:#1DB275;
     padding-left: 30px;
     padding-right: 10px;
+    height: 100%;
   }
   
   .logo {
@@ -56,7 +57,8 @@ html {
   }
   
   .logo img {
-    width: 175px;
+    width: 40%;
+    padding: 5px;
     vertical-align: middle;
   }
 
@@ -153,26 +155,20 @@ p, h2 {
   text-align: center;
 }
 
-
 .center {
   margin: auto;
   width: 50%;
   padding: 10px;
 }
 
-
-.map {
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  text-align: center;
+#map {
+  padding: 10px;
 }
 
-#map {
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  text-align: center;
+/* MEDIA QUERIES */
+
+@media (min-width: 576px) { 
+ #index-hero-img {display: none;}  
+
+ }
 }
