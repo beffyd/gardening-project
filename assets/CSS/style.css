@@ -132,7 +132,8 @@ p, h2 {
    
   padding-top: 20em; 
   padding-bottom: 0.5px;
-  padding-left: 45vw;
+  padding-left: 45vw; 
+}
 
 #socials a {
     text-decoration: none;
@@ -141,14 +142,13 @@ p, h2 {
     padding-bottom: 0.5em;
   }
 
-  table, th, td, p, {
+  table, th, td, p {
     border: 1px solid;
-    color: #1DB275; 
     font-family: Roboto, sans-serif;
   }
 
 #prices {
-  padding-left: 20em;
+  padding-left:0;
 }
 
 .header {
@@ -165,10 +165,16 @@ p, h2 {
   padding: 10px;
 }
 
+#pls-note {
+  border-style: none;
+}
+
 /* MEDIA QUERIES */
 
-@media (min-width: 576px) { 
- #index-hero-img {display: none;}  
+@media only screen and (max-width: 576px) {
+ #index-hero-img {
+    float: inline-start
+  }
 
- }
 }
+
