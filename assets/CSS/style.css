@@ -142,7 +142,7 @@ p, h2 {
     padding-bottom: 0.5em;
   }
 
-  table, th, td, p {
+  table, th, td {
     border: 1px solid;
     font-family: Roboto, sans-serif;
   }
@@ -171,10 +171,48 @@ p, h2 {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 890px) {
  #index-hero-img {
-    float: inline-start
+    display: none;
   }
+
+  #about-company {
+  width: 100%
+  
+}
+
+fieldset {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+#about-us {
+  text-align: center;
+  padding-left: 0;
+}
+
+#footer 
+{
+  position: inherit;
 
 }
 
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  #planting-pic { 
+  width: 20%
+ 
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  #planting-pic { 
+  display: none;
+ 
+  }
+}
