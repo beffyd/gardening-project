@@ -51,10 +51,11 @@ html {
   
   .nav-item:hover {
     background-color: white;
+    
   }
   
   .nav-item:hover a {
-    color: #4a7461;
+    color:  #eccd7a;
   }
   
   .logo img {
@@ -165,6 +166,7 @@ p, h2 {
 
 #map {
   padding: 10px;
+  padding-top: 5em;
 }
 
 #pls-note {
@@ -207,6 +209,9 @@ fieldset {
   width: 20%
  }
 
+ #map {
+  width: 20rem;
+}
  
 }
 
@@ -216,7 +221,7 @@ fieldset {
   display: none;
  
   }
-}
+
 
 @media only screen and (min-width: 1920px) {
   #index-hero-img {
@@ -258,10 +263,11 @@ fieldset {
   
   .nav-item:hover {
     background-color: white;
+  
   }
   
   .nav-item:hover a {
-    color: #4a7461;
+    color:  #eccd7a;
   }
   
   .logo img {
@@ -279,6 +285,7 @@ fieldset {
     justify-content: space-between;
     align-items: center;
   }
+}
 
 
   table, th, td, p{
@@ -297,8 +304,6 @@ fieldset {
 
   }
 
- 
-  
 
 @media only screen and (min-width: 100px) {
   table, th, td, p{

@@ -21,8 +21,7 @@ The Stu's Gardening website is designed to be a responsive website that allows v
 * [Features](#features)
   * [General Features on Each Page](#general-features)
   * [Index Page](#the-home-page-index-page)
-  * [Weddings Page](#weddings-page)
-  * [Birthdays Page](#birthdays-page)
+  * [Prices Page](#prices-page)
   * [Contact Page](#contact)
   * [Accessibility](#accessibility)
 
@@ -171,7 +170,7 @@ Click Save. Your live Github Pages site is now deployed at the URL shown.
 ## How to Fork the Repository: 
 
 Log in (or sign up) to Github.
-Go to the repository for this project, beffyd.github.io/Milestone-Project/
+Go to the repository for this project [github deployed link]
 Click the Fork button in the top right corner.
 How to Clone
 
