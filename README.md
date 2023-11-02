@@ -60,7 +60,7 @@ Essential information for the site:
 Client goals:
 - To be able to view the site on a range of devices
 - To make it easy for people to find the location of the business
-- To make it easy for users to view prices of common jobs completed by tehe business
+- To make it easy for users to view prices of common jobs completed by the business
 - To allow users to find Stu's Gardening on social media platforms
 
 First-time visitor goals:

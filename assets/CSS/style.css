@@ -36,6 +36,7 @@ html {
   
   .logo {
     display: inline-block;
+    width: 40%; 
   }
   
   .nav-links {
@@ -58,12 +59,6 @@ html {
     color:  #eccd7a;
   }
   
-  .logo img {
-    width: 40%;
-    padding: 5px;
-    vertical-align: middle;
-  }
-
   .nav-links {
     display: flex;
   }
@@ -123,20 +118,10 @@ p, h2 {
 }
 
 .landing-image {
-  position: relative; top: -54.5vh;
+  position: relative; top: -60vh;
   padding-top: 2.5em;
 }
 
-#footer {
-  position: sticky; 
-  bottom: 0;
-  width: 100%;
-  height: 50vh;  
-   
-  padding-top: 20em; 
-  padding-bottom: 0.5px;
-  padding-left: 45vw; 
-}
 
 #socials a {
     text-decoration: none;
@@ -145,7 +130,7 @@ p, h2 {
     padding-bottom: 0.5em;
   }
 
-  table, th, td {
+  table, th, td, p{
     border: 1px solid;
     font-family: Roboto, sans-serif;
   }
@@ -166,14 +151,20 @@ p, h2 {
 
 #map {
   padding: 10px;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 #pls-note {
   border-style: none;
 }
 
+#address {
+  border: none;
+  padding: 1em;
+}
+
 /* MEDIA QUERIES */
+
 
 @media only screen and (max-width: 890px) {
  #index-hero-img {
@@ -193,12 +184,6 @@ fieldset {
 #about-us {
   text-align: center;
   padding-left: 0;
-}
-
-#footer 
-{
-  position: inherit;
-
 }
 
 }
@@ -237,6 +222,7 @@ fieldset {
     font-size: xxx-large;
   }
 
+
   nav {
     width: 100%;
     background-color:#4a7461;
@@ -270,12 +256,6 @@ fieldset {
     color:  #eccd7a;
   }
   
-  .logo img {
-    width: 40%;
-    padding: 5px;
-    vertical-align: middle;
-  }
-
   .nav-links {
     display: flex;
   }
@@ -285,24 +265,36 @@ fieldset {
     justify-content: space-between;
     align-items: center;
   }
+
 }
 
 
   table, th, td, p{
       border:2px solid #4a7461;
       padding: 20px;
-      font-family: Roboto, sans-serif;
+      font-family: Roboto, sans-serif; 
       margin: auto;
       font-size:xx-large; 
+      font-weight: 300;
     }
 
 
   }
 
-  #footer-p {
-    position: sticky;
+  @media only screen and (max-width: 1920px) {
 
+  #footer-index {
+    float: inline-end;
+    padding: 10px;
+}
   }
+
+@media screen and (max-width: 890px) {
+  #footer-index {
+    float:none;
+    padding-top: 10px;
+}  
+}
 
 
 @media only screen and (min-width: 100px) {
@@ -313,4 +305,15 @@ fieldset {
     font-size: x-large;
     margin: auto; 
   }
+
+  
 }
+
+@media only screen and (max-width: 390px) {
+  .logo img {
+    width: 100%;
+    padding: 5px;
+    vertical-align: middle;
+}
+}
+
