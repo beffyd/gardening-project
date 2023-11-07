@@ -48,7 +48,7 @@ The Stu's Gardening website is designed to be a responsive website that allows v
 
 ## Initial discussion:
 
-Stu's Gardening website is a website designed to give the user/ potential customer a brief history about the company they may hire, and also a guideline of prices for common jobs completed by the company. The user/ potential customer will also want contact details to arrange an appointment.
+Stu's Gardening website is a website designed to give the user or potential customer a brief history about the company they may hire, and also a guideline of prices for common jobs completed by the company. The user/ potential customer will also want contact details to arrange an appointment.
 
 Essential information for the site: 
 - Company History
@@ -85,7 +85,7 @@ Frequent Visitor goals:
 
 ## Typography
 
-[[Fonts used]]
+I used the font 'Noto Serif' for this website as it is a sans-serif font which is known for its readability, I also used this font as I feel like it fit the theme of the website.
 
 ## Imagery
 
@@ -95,12 +95,12 @@ Images used on Stu's Gardening website are all from unsplash.com
 
 The site was designed on Balsamiq with desktop and mobile in mind and was later optimized to fit tablets also. Here are the original wireframes:
 
-* [Home Page]()
-* [Prices Page]()
-* [Contact Page]()
-* [Home Page mobile]()
-* [Prices Page mobile]()
-* [Contact Page mobile]()
+* [Home Page](/assets/docs/INDEX.png)
+* [Prices Page](/assets/docs/prices.png)
+* [Contact Page](/assets/docs/CONTACT.png)
+* [Home Page mobile](/assets/docs/INDEX%20MOBILE.png)
+* [Prices Page mobile](/assets/docs/PRICES%20MOBILE.png)
+* [Contact Page mobile](/assets/docs/CONTACT%20MOBILE.png)
 
 # Features
 
