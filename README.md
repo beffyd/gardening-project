@@ -3,7 +3,7 @@ Website for Stu's Gardening Business
 
 The Stu's Gardening website is designed to be a responsive website that allows visitors to view it on a range of devices with ease, whilst browsing prices and finding out a bit about the company history too.
 
-![am-i-resposive](/doc link picutre )
+![am-i-resposive](/doc link picture )
 
 [It can be viewed here!]( deployed github link )
 
@@ -50,6 +50,10 @@ The Stu's Gardening website is designed to be a responsive website that allows v
 
 Stu's Gardening website is a website designed to give the user or potential customer a brief history about the company they may hire, and also a guideline of prices for common jobs completed by the company. The user or potential customer will also want contact details to arrange an appointment.
 
+![Persona](/assets/docs/persona.png)
+![5CS](/assets/docs/5cs.png)
+
+
 Essential information for the site: 
 - Company History
 - Prices
@@ -85,7 +89,7 @@ Frequent Visitor goals:
 
 ## Typography
 
-I used the font 'Noto Serif' for this website as it is a sans-serif font which is known for its readability, I also used this font as I feel like it fit the theme of the website.
+I used the font 'Noto Serif' for this website as it is a sans-serif font which is known for its readability, I also used this font as I feel like it gave the brand a well established theme.
 
 ## Imagery
 
@@ -141,11 +145,11 @@ GITPOD
 
 GITHUB
 
-FONT AWESOME (social media icons)
+FONT AWESOME 
 
 GOOGLE FONTS 
 
-BALSAMIQ (wireframes)
+BALSAMIQ 
 
 ## Languages Used
 
@@ -201,6 +205,7 @@ I wrote the content for the website myself.
 
 ## Thanks to: 
 
+My teacher Komal
 
 # Testing
 
@@ -220,21 +225,23 @@ https://validator.w3.org/ & https://jigsaw.w3.org/css-validator/
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| |
-| |
-| |
+|I want to find out prices of jobs my garden needs | Visiting the prices page on the navigation
+|I want to be able to navigate the site easily on mobile or desktop | Website can be loaded on mobile or desktop 
+|I want to be able to find the shop on social media| By clicking on the social media icons in the footer (facebook or twitter)
 
 `Returning Visitors`
 
 |  Goals | How are they achieved? |
 | :--- | :--- |
-|| | |
+I want to know about the company history | Visiting the homepage where the 'About Us' section is
+I want to be able to contact the business by phone | Visiting the contact page
+I want to be able to contact the business by email | Pressing the email icon on any page 
 
 `Frequent Visitors`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| |
+| I want to be able to find the business in person| Visiting the contact page and looking at the map
 
 ## Full testing
 
@@ -242,9 +249,10 @@ https://validator.w3.org/ & https://jigsaw.w3.org/css-validator/
 Windows 10 PC with an Acer KG271 monitor (24inches) 
 
 **Mobile devices:**
-
+[mobile sizes on devtools used]
 
 **Tablet:**
+[tablet sizes on devtools used]
 
 
 Each device tested the site using:
@@ -255,6 +263,10 @@ Each device tested the site using:
 
  | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
+Social media icons | Opens link to social media in a new tab | Clicked on icons | New tab opens relevant social media page | Pass
+Navigation links change colour whilst hovering | Button user is hovering over changes colour | Hovered with mouse | Button changes to white with gold font | Pass |
+Prices table | Easily to find and read | Clicked on prices page | Table is displayed clearly | Pass | 
+
 
 
 ## Solved Bugs
