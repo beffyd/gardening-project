@@ -48,7 +48,7 @@ The Stu's Gardening website is designed to be a responsive website that allows v
 
 ## Initial discussion:
 
-Stu's Gardening website is a website designed to give the user or potential customer a brief history about the company they may hire, and also a guideline of prices for common jobs completed by the company. The user/ potential customer will also want contact details to arrange an appointment.
+Stu's Gardening website is a website designed to give the user or potential customer a brief history about the company they may hire, and also a guideline of prices for common jobs completed by the company. The user or potential customer will also want contact details to arrange an appointment.
 
 Essential information for the site: 
 - Company History
@@ -79,7 +79,7 @@ Frequent Visitor goals:
 
 ## Colour Scheme 
 
-![colour-palete](/link)
+![colour-palete](/assets/docs/colourpallete.png)
 
 
 
@@ -111,20 +111,18 @@ The website is comprised of a home page, 1 page of prices and a contact page.
 On these pages the features are: 
 - a navigation bar
 - social media links that are accessible by clicking the relevant icons 
-- a table of prices to view
-- a map to find the business in person
 
 ## **The home page**
 
-The home page has a brief history of Stu's Gardening and an image displaying what Stu does day to day.
+The home page has a brief history of Stu's Gardening and an image above the bio of the kind of work the company does.
 
 ## **The Prices Page**
 
-The prices page allows users to see what starting price the job they need doing is.
+The prices page has a table of jobs that allows users to see what the starting price of the job they need doing is.
 
 ## **Contact**
 
-The contact page shows a map of the shop and also has a telephone number and email address for the customer. 
+The contact page shows a map of the shop and also has a telephone number and address for the customer if they need to visit the business in person. 
 
 # Accessibility
 
@@ -172,7 +170,7 @@ Click Save. Your live Github Pages site is now deployed at the URL shown.
 Log in (or sign up) to Github.
 Go to the repository for this project [github deployed link]
 Click the Fork button in the top right corner.
-How to Clone
+
 
 ## How to Clone the repository:
 

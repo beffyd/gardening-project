@@ -6,7 +6,6 @@
 
 h2 {
 margin: auto;
-padding-left: 2em;
 padding-top: 2em;
 text-align: center;
 }
@@ -78,8 +77,9 @@ html {
 #about-company {
   font-family: 'Noto Serif', serif;
   font-size: large;
-  width: 40vw; 
+  width: 550px; 
   padding: 2vw;
+  border-style: none;
 
 
 }
@@ -88,7 +88,7 @@ fieldset {
   width: fit-content;
   margin: 2em; 
   border-color:#4a7461;
-  margin-left: 5em;
+
 }
 
 p, h2 { 
@@ -99,7 +99,6 @@ p, h2 {
 
 #jobs-and-prices {
   text-align: center;
-  padding-right: 3rem;
 }
 
 #about-us {
@@ -153,15 +152,6 @@ p, h2 {
 
 @media only screen and (min-width: 890px) {
 
-fieldset {
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-#about-us {
-  text-align: center;
-  padding-left: 0;
-}
 
 #planting-big {
   max-width: 20%;
@@ -180,9 +170,13 @@ fieldset {
  #planting-big {
   display: none;
  }
+
+ #about-company 
+ {
+  width: fit-content;
+ }
  
 }
-
 
 @media only screen and (min-width: 768px) {
   #planting-pic { 
@@ -194,11 +188,12 @@ fieldset {
   
   }
 
-
 @media only screen and (min-width: 1920px) {
   #planting-big {
-    max-width: 20%;
+    width: 20%;
     border-radius: 50%;
+    text-align: center;
+     
   }
 
   #about-company {
@@ -208,6 +203,7 @@ fieldset {
 
   #about-us {
     font-size: xx-large;
+    text-align: center;
    
   }
 
@@ -270,20 +266,15 @@ fieldset {
 
   }
 
-@media screen and (max-width: 890px) {
-  #footer-index {
-    float:none;
-    padding-top: 10px;
-} 
-
-#planting-big {
-  max-width: 20%;
-  border-radius: 50%;
+  @media screen and (max-width: 890px) {
+   
+  
+  #planting-big {
+    max-width: 20%;
+    border-radius: 50%;
+    text-align: center;
+  }
 }
-
-
-}
-
 
 @media only screen and (min-width: 100px) {
   table, th, td, p{
@@ -304,4 +295,4 @@ fieldset {
     vertical-align: middle;
 }
 }
-
+  
