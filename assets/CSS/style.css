@@ -147,152 +147,52 @@ p, h2 {
   padding: 1em;
 }
 
-/* MEDIA QUERIES */
 
 
-@media only screen and (min-width: 890px) {
-
-
-#planting-big {
-  max-width: 20%;
-  border-radius: 50%;
-}
-
-}
-
-
-@media only screen and (max-width: 767px) {
-  #planting-pic { 
-  width: 20%
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+  align-content: center;
+  gap: none; 
   
- }
+}
 
- #planting-big {
-  display: none;
- }
 
- #about-company 
- {
-  width: fit-content;
- }
+img {
+  width: 460px;
+  height: 310px;
  
 }
 
-@media only screen and (min-width: 768px) {
-  #planting-pic { 
-  display: none;
-
-  #planting-big {
-    display: none;
-  }
-  
-  }
-
-@media only screen and (min-width: 1920px) {
-  #planting-big {
-    width: 20%;
-    border-radius: 50%;
-    text-align: center;
-     
-  }
-
-  #about-company {
-    font-size: x-large;
-    font-family: 'Noto Serif', serif;
-  }
-
-  #about-us {
-    font-size: xx-large;
-    text-align: center;
-   
-  }
-
-
-  nav {
-    width: 100%;
-    background-color:#4a7461;
-    padding-left: 30px;
-    padding-right: 10px;
-    height: 100%;
-  }
-  
-  .logo {
-    display: inline-block;
-  }
-  
-  .nav-links {
-    list-style: none;
-  }
-  
-  .nav-item a {
-    display: inline-block;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: x-large;
-  }
-  
-  .nav-item:hover {
-    background-color: white;
-  
-  }
-  
-  .nav-item:hover a {
-    color:  #eccd7a;
-  }
-  
-  .nav-links {
-    display: flex;
-  }
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
+item-1{
+  flex-shrink: 5;
+  flex-basis: 0;
 }
 
-
-  table, th, td, p{
-      border:2px solid #4a7461;
-      padding: 20px;
-      font-family: 'Noto Serif', serif; 
-      margin: auto;
-      font-size:xx-large; 
-      font-weight: 300;
-    }
-
-
-  }
-
-  @media screen and (max-width: 890px) {
-   
-  
-  #planting-big {
-    max-width: 20%;
-    border-radius: 50%;
-    text-align: center;
-  }
+item-2{
+  flex-shrink: 1;
 }
 
-@media only screen and (min-width: 100px) {
-  table, th, td, p{
-    border:2px solid #4a7461;
-    padding: 20px;
-    font-family: 'Noto Serif', serif;
-    font-size: x-large;
-    margin: auto; 
-  }
-
-  
+item-3{
+  flex-shrink: 1;
 }
 
-@media only screen and (max-width: 390px) {
-  .logo img {
-    width: 100%;
-    padding: 5px;
-    vertical-align: middle;
+item-4{
+  flex-shrink: 1;
 }
+
+item-5{
+  flex-shrink: 1;
 }
-  
+
+item-6{
+  flex-shrink: 1;
+}
+
+item-7{
+  flex-shrink: 1;
+}
+
+item-8{
+  flex-shrink: 1;
+}
