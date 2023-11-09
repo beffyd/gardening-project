@@ -13,9 +13,12 @@
       @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&display=swap');
       </style>
       
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-        </style>
+    
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+</style>
+
 
     <title>Stu's Gardening</title>
     </head>
@@ -24,8 +27,7 @@
         
          <!-- NAVBAR SECTION -->
         <nav class="navbar">
-            <a href="" class="logo">
-               <h1>STUS GARDENING</h1>
+             <h1>STUS GARDENING</h1>
             </a>
             <ul class="nav-links">
               <li class="nav-item"><a href="/index.html">Home</a></li>
@@ -37,7 +39,7 @@
 
         <!-- ABOUT SECTION -->
           
-        <div class="container">
+        <div class="container-1">
           <div class="item-1"><img src="/assets/imgs/gardening-gear.jpg" class="img"></div>
           <div class="item-2"><img src="/assets/imgs/soil-spade.jpg" class="img"></div>
           <div class="item-3"><img src="/assets/imgs/planting.jpg" class="img"></div>
@@ -51,22 +53,45 @@
         
     </section>
         <section>
-          <div class="container">
-          <div id="about-us">
-            <p>Here at Stu's Gardening we have been tending to our beautiful states lawns and gardens since 2002.
-                  <br>
+          <div class="container-2">
+            <div id="about-us">
+            <p class="about-company">Here at Stu's Gardening we have been tending to our beautiful states lawns and gardens since 2002.
                    We pride ourselves on quick efficient work whilst delivering the best quality service to our customers at the same time. 
-                  <br>
-                  We specialise and started off just in lawn care but over the years have also become proficient in planters, bush removal and tree pruning or removing. 
-                  <br>
+                  We specialise and started off just in lawn care but over the years have also become proficient in planters, bush removal and tree pruning or removing.
                   Take a look at our prices and see if we can work for you, and dont be shy to contact us if you have a specific job you need doing that you do not see listed!
                 </p>
               </div>
             
-              <div>
-                <form></form>
-              </div>
+
             
+              <center>
+            <div class="form" id="mailing-list">
+              <p id="mailing">JOIN OUR MAILING LIST FOR MONEY OFF!</p>
+                <form
+            method="post"
+            target="_blank"
+            action="https://formdump.codeinstitute.net"
+          >
+            <div class="name" id="customer-name">
+              <label class="labelSmall">Name:</label>
+              <input type="text" name="name">
+            </div>
+
+            <div class="email" id="customer-email">
+              <label class="labelSmall">Email:</label>
+              <input type="text" name="email">
+            </div>
+
+            <div class="number" id="customer-number">
+              <label class="labelSmall">Phone:</label>
+              <input type="text" name="number">
+            </div>
+            <br>
+            <input type="hidden" name="selectedRadioValue">
+            <div id="center-button">
+              <button>Sign Me Up!</button>
+              </div>
+            </center>
             </div>
         </section>
          <!-- FOOTER-->  

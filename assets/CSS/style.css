@@ -94,7 +94,6 @@ fieldset {
 
 p, h2 { 
   font-family: 'Work Sans', sans-serif;
-  text-align: center;
   font-size: x-large;
   
 }
@@ -107,27 +106,34 @@ a {
   color: #eccd7a;
 }
 
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: xx-large;
+  font-size: normal;
+  text-decoration: none;
+  color: #eccd7a;
+  padding: 5px;
+}
+
 #jobs-and-prices {
   text-align: center;
 }
 
-#about-us {
-   text-align: center;
-   font-family: 'Noto Serif', serif;
-}
-
-
 #socials a {
     text-decoration: none;
-    font-size: x-large;
+    font-size: xx-large;
     color:#4a7461;
     padding-bottom: 0.5em;
   }
 
-  table, th, td, {
+  #socials {
+    padding: 1%;
+  }
+
+  table, th, td {
     border: 1px solid;
     font-family: 'Noto Serif', serif;
-  }
+  }  
 
 #prices {
   padding-left:0;
@@ -153,7 +159,6 @@ a {
 }
 
 
-
 .container {
   display: flex;
   flex-wrap: wrap; 
@@ -168,34 +173,153 @@ img {
 
 }
 
-item-1{
-    flex: 1;
+
+.about-company {
+  text-align: center;
+  width: fit-content;
+  padding: 1%;
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
-item-2{
-  flex: 1;
+#about-us {
+  width: 50%;
+  padding: 1%;
+  background-color: #4a7461b9;
 }
 
-item-3{
-  flex: 1;
+#mailing {
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
+  padding-left: 6vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 6vh;
+  }
+
+.labelSmall {
+  font-size: larger;
+  
 }
 
-item-4{
-  flex: 1;
+input {
+  width: 12vw;
+  height: 3vh;
+  padding: 2%;
 }
 
-item-5{
-  flex: 1;
+button {
+  background-color:#eccd7a;  
+  width: 150px;
+  font-size:larger;
+  
 }
 
-item-6{
-  flex: 1;
+.name {
+  padding: 5px;
 }
 
-item-7{
-  flex: 1;
+.email {
+  padding: 5px;
 }
 
-item-8{
-  flex: 1;
+.number {
+  padding: 5px;
+}
+
+.form {
+  align-self: center;
+
+}
+
+.container-1{   
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+
+.container-2
+{   
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+input {
+  font-size: larger;
+}
+
+/* MEDIA QUERIES */ 
+
+@media screen and (max-width: 1500px ) {
+   img {
+    width: 32vw;
+    height: 20vh;
+    }
+
+.item-1 {
+  display: none;
+}
+
+.item-3 {
+  display: none;
+}
+
+}
+
+
+@media screen and (max-width: 815px )  {
+  img {
+    width: 45vw;
+    height: 15vh;
+    }
+
+.item-1 {
+  display: none;
+}
+
+.item-3 {
+  display: none;
+}
+
+.item-4 {
+  display: none;
+}
+
+.item-6 {
+  display: none;
+}
+
+
+}
+
+
+@media screen and (max-width: 1664px ) {
+  img {
+    width: 40vw;
+    height: 30vh;
+    }
+
+.item-1 {
+  display: none;
+}
+
+.item-3 {
+  display: none;
+}
+
+.item-4 {
+  display: none;
+}
+
+.item-6 {
+  display: none;
+}
+
+
+#about-us {
+  width: 80%;
+}
+
 }
