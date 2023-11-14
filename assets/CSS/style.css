@@ -229,6 +229,7 @@ button {
   background-color:#eccd7a;  
   width: 150px;
   font-size:larger;
+  font-family: 'Montserrat', sans-serif;
   border-color: none;
   border-radius: 12%;
   
@@ -267,18 +268,37 @@ button {
 
 input {
   font-size: larger;
+  width: 10em;
 }
+
+.labelSmall {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link,
+  .navbar-toggler {
+    
+width: 55%;
+    float: right;
+  }
+
+  .nav-link {
+    font-size: 1em;
+    text-align: center;
+    padding: 2.5%;
+  }
+
+  .navbar-toggler {
+    margin: 0;
+    border-radius: 0;
+    float: right;
+  }
+
+/* NAVBAR */ 
+
 
 /* MEDIA QUERIES */ 
 
-@media screen and (max-width: 1695px) {
-
-.container-2
-{   
-  display: flex;
-  flex-wrap: nowrap; 
-  justify-content: center;
-}}
 
 @media screen and (max-width: 1155px) {
 
@@ -334,4 +354,9 @@ img {
     width: 40vw;
   }
 }
-  
+ 
+@media screen and (max-width: 1794px) 
+{
+#about-us {
+  width: fit-content ;
+} }
