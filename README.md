@@ -99,10 +99,10 @@ Images used on Stu's Gardening website are all from unsplash.com
 
 The site was designed on Balsamiq with desktop and mobile in mind and was later optimized to fit tablets also. Here are the original wireframes:
 
-* [Home Page](/assets/docs/INDEX.png)
+* [Home Page](/)
 * [Prices Page](/assets/docs/prices.png)
 * [Contact Page](/assets/docs/CONTACT.png)
-* [Home Page mobile](/assets/docs/INDEX%20MOBILE.png)
+* [Home Page mobile]()
 * [Prices Page mobile](/assets/docs/PRICES%20MOBILE.png)
 * [Contact Page mobile](/assets/docs/CONTACT%20MOBILE.png)
 
@@ -185,6 +185,8 @@ Open the terminal in your code editor and change the current working directory t
 Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 # Credits
+
+Credit to W3 schools for the mobile navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
 ## Code Used
 
