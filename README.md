@@ -1,7 +1,7 @@
 # Stu's Gardening 
 Website for Stu's Gardening Business
 
-The Stu's Gardening website is designed to be a responsive website that allows visitors to view it on a range of devices with ease, whilst browsing prices and finding out a bit about the company history too.
+The Stu's Gardening website is designed to be a responsive website that allows visitors to view it on a range of devices with ease, whilst browsing prices and finding out about the company history too.
 
 ![am-i-resposive](/doc link picture )
 
