@@ -83,7 +83,7 @@ Frequent Visitor goals:
 
 ## Colour Scheme 
 
-![colour-palete](/assets/docs/colourpallete.png)
+![colour-pallete](/assets/docs/COLOORS.png)
 
 
 
@@ -99,10 +99,10 @@ Images used on Stu's Gardening website are all from unsplash.com
 
 The site was designed on Balsamiq with desktop and mobile in mind and was later optimized to fit tablets also. Here are the original wireframes:
 
-* [Home Page](/)
+* [Home Page](/assets/docs/index.png)
 * [Prices Page](/assets/docs/prices.png)
 * [Contact Page](/assets/docs/CONTACT.png)
-* [Home Page mobile]()
+* [Home Page mobile](/assets/docs/INDEX%20MOBILE.png)
 * [Prices Page mobile](/assets/docs/PRICES%20MOBILE.png)
 * [Contact Page mobile](/assets/docs/CONTACT%20MOBILE.png)
 
@@ -115,10 +115,11 @@ The website is comprised of a home page, 1 page of prices and a contact page.
 On these pages the features are: 
 - a navigation bar
 - social media links that are accessible by clicking the relevant icons 
+- a form to submit details for money off services
 
 ## **The home page**
 
-The home page has a brief history of Stu's Gardening and an image above the bio of the kind of work the company does.
+The home page has a brief history of Stu's Gardening and images above showing the kind of work the company does.
 
 ## **The Prices Page**
 
@@ -136,6 +137,8 @@ I have been mindful whilst coding to ensure the website is accessible. This has 
 - Adding alt text to images for users that are using a screen reader
 
 # Frameworks, Libraries & Programs Used
+
+VS CODE
 
 ## Technologies Used:
 
@@ -186,7 +189,7 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 
 # Credits
 
-Credit to W3 schools for the mobile navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+Credit to my teacher Komal for the burger menu I used for mobile view.
 
 ## Code Used
 
@@ -243,18 +246,26 @@ I want to be able to contact the business by email | Pressing the email icon on 
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I want to be able to find the business in person| Visiting the contact page and looking at the map
+| I want to be able to find the business in person| Visiting the contact page and looking at the map |
+| I want to get money off future services as I use the company regurlarly | Fill out the money off form |
 
 ## Full testing
 
 **PC:**
 Windows 10 PC with an Acer KG271 monitor (24inches) 
+Dev tools: 1920 x 1080 average size for PC or laptop screens
 
 **Mobile devices:**
-[mobile sizes on devtools used]
+iPhone 12pro
+iPhone 14pro max
+Galaxy fold
+
 
 **Tablet:**
-[tablet sizes on devtools used]
+iPad Air
+iPad pro
+Nest hub max
+
 
 
 Each device tested the site using:
@@ -266,8 +277,9 @@ Each device tested the site using:
  | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 Social media icons | Opens link to social media in a new tab | Clicked on icons | New tab opens relevant social media page | Pass
-Navigation links change colour whilst hovering | Button user is hovering over changes colour | Hovered with mouse | Button changes to white with gold font | Pass |
+Navigation links are highlighted with a white line when clicked | Link has white line underneath | Clicked with mouse | Page link has white line under title| Pass |
 Prices table | Easily to find and read | Clicked on prices page | Table is displayed clearly | Pass | 
+Mailing list form | Information recieved by codeinsitute form dump | Infomation filled out, Sign up button pressed| opens a new page with info sent to codeinstitute server | Pass
 
 
 
