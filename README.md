@@ -55,9 +55,10 @@ Stu's Gardening website is a website designed to give the user or potential cust
 
 
 Essential information for the site: 
-- Company History
+- Company history
 - Prices
-- Contact Info 
+- Contact info 
+- Mailing list form
 
 ## User Stories: 
 
@@ -84,7 +85,6 @@ Frequent Visitor goals:
 ## Colour Scheme 
 
 ![colour-pallete](/assets/docs/COLOORS.png)
-
 
 
 ## Typography
@@ -114,8 +114,10 @@ The website is comprised of a home page, 1 page of prices and a contact page.
 
 On these pages the features are: 
 - a navigation bar
+- images that display the companies services
 - social media links that are accessible by clicking the relevant icons 
 - a form to submit details for money off services
+- a map with location of the company
 
 ## **The home page**
 
@@ -123,7 +125,7 @@ The home page has a brief history of Stu's Gardening and images above showing th
 
 ## **The Prices Page**
 
-The prices page has a table of jobs that allows users to see what the starting price of the job they need doing is.
+The prices page has 3 tables of jobs that allows users to see what the starting price of the job they need doing is.
 
 ## **Contact**
 
@@ -134,6 +136,7 @@ The contact page shows a map of the shop and also has a telephone number and add
 I have been mindful whilst coding to ensure the website is accessible. This has been achieved by:
 - Using semantic HTML
 - Using sans-serif fonts for the site (These are easy-to-read fonts for people with dyslexia and learning difficulties)
+- Using larger than default fonts for readability
 - Adding alt text to images for users that are using a screen reader
 
 # Frameworks, Libraries & Programs Used
@@ -187,13 +190,11 @@ Click on the code button, select whether you would like to clone with HTTPS, SSH
 Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-# Credits
-
-Credit to my teacher Komal for the burger menu I used for mobile view.
 
 ## Code Used
 
 Google's embedded iframe HTML for the map on the contact page.
+Komals burger menu for mobile view.
 
 ## Content
 
