@@ -121,18 +121,25 @@ h2 {
   padding: 1%;
 }
 
-table,
 td,
 tr {
-  border: 2px solid;
+  border: none;
   border-color: #4a7461;
-  padding: 5px;
+  padding: 1rem;
   font-family: "Montserrat", sans-serif;
   font-size: larger;
+  opacity: 100%;
+}
+
+table {
+  background: #eccd7a83;
+  border-style: dashed;
+  border-radius: 5%;
+  padding: 0.5%;
 }
 
 th {
-  font-size: smaller;
+  font-size: larger;
 }
 
 p {
