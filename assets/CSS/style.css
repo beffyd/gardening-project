@@ -514,6 +514,10 @@ main {
   .container-1 {
     padding-top: 5rem;
   }
+
+  #address {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 1794px) {
