@@ -530,7 +530,6 @@ main {
     margin: 5%;
     padding-top: 2.5rem;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -544,15 +543,22 @@ main {
 
   .item-5 {
     display: none;
-  }  
-img {
-  width: 100%;
-  border-radius: 60%;
-  
-}
-  
- #about-us {
-  max-width: 60%;
-  padding: 0.5rem;
- } 
+  }
+  img {
+    width: 100%;
+    border-radius: 60%;
+  }
+
+  #about-us {
+    max-width: 85%;
+    padding: 0.5rem;
+  }
+
+  .about-company {
+    font-size: smaller;
+  }
+
+  #mailing {
+    font-size: large;
+  }
 }
