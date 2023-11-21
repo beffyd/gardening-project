@@ -103,6 +103,7 @@ h1 {
   font-family: "Oswald", sans-serif;
   text-decoration: none;
   color: #eccd7a;
+  font-size: xx-large;
 }
 
 h2 {
@@ -119,6 +120,10 @@ h2 {
 
 #socials {
   padding: 1%;
+}
+
+#about-us-label {
+  font-size: x-large;
 }
 
 td,
@@ -525,6 +530,7 @@ main {
     margin: 5%;
     padding-top: 2.5rem;
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -535,4 +541,18 @@ main {
   .container-1 {
     padding-top: 3.5rem;
   }
+
+  .item-5 {
+    display: none;
+  }  
+img {
+  width: 100%;
+  border-radius: 60%;
+  
+}
+  
+ #about-us {
+  max-width: 60%;
+  padding: 0.5rem;
+ } 
 }

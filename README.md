@@ -79,7 +79,7 @@ Returning visitor goals:
 
 Frequent Visitor goals:
 - I want to be able to find the business in person
-
+- I want to join the mailing list for discount on services
 # Design 
 
 ## Colour Scheme 
@@ -279,9 +279,9 @@ Each device tested the site using:
 | --- | --- | --- | --- | --- |
 Social media icons | Opens link to social media in a new tab | Clicked on icons | New tab opens relevant social media page | Pass
 Navigation links are highlighted with a white line when clicked | Link has white line underneath | Clicked with mouse | Page link has white line under title| Pass |
-Prices table | Easily to find and read | Clicked on prices page | Table is displayed clearly | Pass | 
+Prices tables | Easy to find and read | Clicked on prices page | Tables are displayed clearly | Pass | 
 Mailing list form | Information recieved by codeinsitute form dump | Infomation filled out, Sign up button pressed| opens a new page with info sent to codeinstitute server | Pass
-
+Burger menu | When page is below desktop size the menu becomes a burger with links that drop down | Dragged arrow on responsiveness in devtools, also opened on mobile screen sizes | navigation links are hidden and menu becomes a burger | Pass
 
 
 ## Solved Bugs
