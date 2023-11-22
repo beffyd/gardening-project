@@ -291,13 +291,16 @@ button {
   font-size: x-large;
 }
 
-#jobs-prices-table {
+.jobs-prices-table {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 7rem;
   font-size: larger;
+}
+
+#first {
+  padding-top: 6rem;
 }
 
 input {
@@ -352,7 +355,7 @@ header a {
   float: right;
 }
 
-#menu > li {
+#menu>li {
   background-color: #4a7461;
   padding: 1em;
 }
@@ -372,7 +375,7 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
   display: block;
 }
 
@@ -393,6 +396,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
   /* Header */
   nav {
     display: block;
@@ -406,7 +410,7 @@ main {
     float: right;
   }
 
-  #menu > li {
+  #menu>li {
     padding-left: 2rem;
   }
 
@@ -421,6 +425,8 @@ main {
     line-height: 75px;
     margin: 0 0.5rem;
   }
+
+
 
   /* Main content */
   main {
@@ -443,6 +449,7 @@ main {
 
 /* Larger devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+
   /* About section */
   /* Moves written content to the right side of the image */
   .about-content {
@@ -452,6 +459,7 @@ main {
     align-items: center;
   }
 }
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1155px) {
@@ -528,11 +536,12 @@ main {
 }
 
 @media screen and (max-width: 1219px) {
-  #jobs-prices-table {
+  .jobs-prices-table {
     justify-content: center;
     flex-direction: column;
     margin: 5%;
     padding-top: 2.5rem;
+    
   }
 }
 
@@ -548,6 +557,7 @@ main {
   .item-5 {
     display: none;
   }
+
   img {
     width: 100%;
     border-radius: 60%;
@@ -564,5 +574,12 @@ main {
 
   #mailing {
     font-size: large;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .item-2 {
+    padding-top: 1.5rem;
   }
 }
