@@ -132,7 +132,7 @@ tr {
   border-color: #4a7461;
   padding: 1rem;
   font-family: "Montserrat", sans-serif;
-  font-size: larger;
+  font-size: 30px;
   opacity: 100%;
 }
 
@@ -538,7 +538,6 @@ main {
     justify-content: center;
     flex-direction: column;
     padding-top: 2.5rem;
-
   }
 }
 
