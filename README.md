@@ -260,14 +260,20 @@ Dev tools: 1920 x 1080 average size for PC or laptop screens
 iPhone 12pro
 iPhone 14pro max
 Galaxy fold
-
+Mobile: 360 x 640
+Mobile: 375 x 667
+Mobile: 360 x 720
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
 
 **Tablet:**
 iPad Air
 iPad pro
 Nest hub max
+Tablet: 768 x 1024.
 
-
+**Desktop**
+High-res laptop or desktop: 1920 x 1080.
 
 Each device tested the site using:
 - Internet Explorer 
