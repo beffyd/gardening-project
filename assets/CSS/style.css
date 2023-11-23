@@ -426,8 +426,6 @@ main {
     margin: 0 0.5rem;
   }
 
-
-
   /* Main content */
   main {
     /* Push main content down to accomodate larger header */
@@ -539,9 +537,8 @@ main {
   .jobs-prices-table {
     justify-content: center;
     flex-direction: column;
-    margin: 5%;
     padding-top: 2.5rem;
-    
+
   }
 }
 
