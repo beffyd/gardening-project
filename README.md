@@ -3,9 +3,9 @@ Website for Stu's Gardening Business
 
 The Stu's Gardening website is designed to be a responsive website that allows visitors to view it on a range of devices with ease, whilst browsing prices and finding out about the company history too.
 
-![am-i-resposive](/doc link picture )
+![am-i-resposive](/assets/docs/amiresponsive.png)
 
-[It can be viewed here!]( deployed github link )
+[It can be viewed here!](https://beffyd.github.io/gardening-project)
 
 ## Contents
 
@@ -121,7 +121,7 @@ On these pages the features are:
 
 ## **The home page**
 
-The home page has a brief history of Stu's Gardening and images above showing the kind of work the company does.
+The home page has a brief history of Stu's Gardening and images above showing the kind of work the company does. It also has a form to sign up to the companies mailing list.
 
 ## **The Prices Page**
 
@@ -156,6 +156,8 @@ FONT AWESOME
 GOOGLE FONTS 
 
 BALSAMIQ 
+
+VISUAL STUDIO
 
 ## Languages Used
 
