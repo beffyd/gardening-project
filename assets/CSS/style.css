@@ -73,6 +73,35 @@ nav {
   flex-wrap: wrap;
 }
 
+/* ABOUT STU */
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position:absolute;
+  bottom: 45vh;
+  left: 10vw;
+  background-color: #eccd7a8e;
+  padding: 30px;
+}
+
+
+
+#stu-intro {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  color: black;
+  width: max-content;
+  padding: 30px;
+}
+
+
 #about-company {
   font-family: "Noto Serif", serif;
   font-size: large;
@@ -114,8 +143,12 @@ h2 {
 #socials a {
   text-decoration: none;
   font-size: xx-large;
-  color: #4a7461;
+  color: #4a7461d5;
   padding-bottom: 0.5em;
+}
+
+.hero {
+  width: 100vw;
 }
 
 #socials {
@@ -187,7 +220,7 @@ p {
   justify-content: flex-start;
 }
 
-img {
+.at-work {
   width: 25vw;
   height: 30vh;
   padding: 2px;
@@ -258,7 +291,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 5rem;
 }
 
 .container-2 {
@@ -364,6 +396,15 @@ header a {
   color: #ffffff;
 }
 
+fieldset {
+  padding: 2%;
+  border-style: none;
+}
+
+i {
+  font-size: 50px;
+  padding: 2vw; 
+}
 /* Navbar styles with droppdown toggle */
 nav {
   position: absolute;
@@ -473,7 +514,7 @@ main {
     border-radius: 5px;
   }
 
-  img {
+  .at-work {
     height: 20vh;
   }
 }
@@ -495,7 +536,7 @@ main {
     display: none;
   }
 
-  img {
+  .at-work {
     height: 20vh;
   }
 }
@@ -509,7 +550,7 @@ main {
     display: none;
   }
 
-  img {
+  .at-work {
     width: 40vw;
   }
 
@@ -554,7 +595,7 @@ main {
     display: none;
   }
 
-  img {
+  .at-work {
     width: 100%;
     border-radius: 60%;
   }
