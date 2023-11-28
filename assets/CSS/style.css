@@ -137,6 +137,7 @@ h1 {
   text-decoration: none;
   color: #eccd7a;
   font-size: xx-large;
+  text-align: center;
 }
 
 h2 {
@@ -151,12 +152,10 @@ h2 {
   padding-bottom: 0.5em;
 }
 
-.hero {
-
-}
-
 #socials {
   padding: 1%;
+  text-align: center;
+
 }
 
 #about-us-label {
@@ -216,6 +215,9 @@ p {
 #address {
   border: none;
   padding: 1em;
+  text-align: center;
+ 
+
 }
 
 .container {
@@ -308,6 +310,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 5rem;
 }
 
 #pls-note {
@@ -337,7 +340,7 @@ button {
 }
 
 #first {
-  padding: 6rem 10px 10px;
+  padding: 8rem 10px 10px;
 }
 
 input {
@@ -473,6 +476,7 @@ main {
     margin: 0 0.5rem;
   }
 
+
   /* Main content */
   main {
     /* Push main content down to accomodate larger header */
@@ -484,6 +488,46 @@ main {
     bottom: 50px;
   }
 }
+
+
+
+/* Media query: tablets and larger (1700px and up) */
+@media screen and (max-width: 1700px) {
+
+  .bottom-left {
+    position: absolute;
+    bottom: 2vh;
+    left: 10vw;
+    background-color: #eccd7a8e;
+    padding: 5px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 1540px) {
+
+  #stu-intro {
+    font-size: 30px;
+    width: 25rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1068px) {
+
+  #stu-intro {
+    width: 30rem;
+    padding: 10px;
+    margin: 2px;
+  }
+
+
+}
+
 
 /* Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -516,7 +560,7 @@ main {
 
   #about-us {
     width: 95vw;
-    padding: 2px;
+    padding: 0;
     border-radius: 5px;
   }
 
@@ -545,7 +589,27 @@ main {
   .at-work {
     height: 20vh;
   }
+
+
+  #stu-intro {
+    font-size: medium;
+    width: 10rem;
+    padding: 10px;
+    margin: 2px;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 4vh;
+    left: 10vw;
+    background-color: #eccd7a8e;
+    padding: 5px;
+
+
+  }
 }
+
+
 
 @media screen and (max-width: 770px) {
   .item-7 {
@@ -586,6 +650,10 @@ main {
     flex-direction: column;
     padding-top: 2.5rem;
   }
+
+  .container-3 {
+    padding-top: 1px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -594,7 +662,8 @@ main {
   }
 
   .container-1 {
-    padding-top: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
   }
 
   .item-5 {
@@ -603,7 +672,7 @@ main {
 
   .at-work {
     width: 100%;
-    border-radius: 60%;
+    border-radius: 10%;
   }
 
   #about-us {
@@ -611,24 +680,49 @@ main {
     padding: 0.5rem;
   }
 
-  .about-company {
-    font-size: smaller;
-  }
-
   #mailing {
     font-size: large;
   }
-}
 
-
-@media screen and (max-width:768px) {
   .item-2 {
-    padding-top: 1.5rem;
+    margin: auto;
   }
 }
 
 @media screen and (max-width:1280px) {
   #first {
     padding: 6rem 10px 10px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  #stu-intro {
+    font-size: medium;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 2vh;
+    left: 5vw;
+    background-color: #eccd7a8e;
+    padding: 0.5px;
+
+
+  }
+}
+
+@media screen and (max-width:600px) {
+  #stu-intro {
+    font-size: x-small;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 3vh;
+    left: 2vw;
+    background-color: #eccd7a8e;
+    padding: 0.5px;
+
+
   }
 }
