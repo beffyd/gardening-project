@@ -149,13 +149,11 @@ h2 {
   text-decoration: none;
   font-size: xx-large;
   color: #4a7461d5;
-  padding-bottom: 0.5em;
+
 }
 
 #socials {
-  padding: 1%;
   text-align: center;
-
 }
 
 #about-us-label {
@@ -205,18 +203,12 @@ p {
 #map {
   padding-top: 4em;
   padding-bottom: 2em;
-}
+  text-align: center;
+  }
 
 #pls-note {
   border-style: none;
   text-align: center;
-}
-
-#address {
-  border: none;
-  padding: 1em;
-  text-align: center;
-
 }
 
 .container {
@@ -302,8 +294,7 @@ button {
 .container-2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
+  }
 
 .container-3 {
   display: flex;
@@ -314,25 +305,21 @@ button {
 
 #pls-note {
   width: 50%;
-  padding: 1%;
+  padding: 0.5em;
   background-color: #4a7461b9;
   border-radius: 5px;
-  margin: 1%;
   font-size: x-large;
 }
 
 #address {
   width: 100%;
-  padding: 1%;
+  padding: 0.5em;
   border-radius: 5px;
-  margin: 1%;
   font-size: x-large;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
-
-}
+  }
 
 
 #location {
@@ -340,10 +327,6 @@ button {
   margin: auto;
   padding: 2%;
   border-radius: 2%;
-}
-
-#map {
-  text-align: center;
 }
 
 .jobs-prices-table {
@@ -354,9 +337,6 @@ button {
   font-size: larger;
 }
 
-#contact-footer {
-  padding-top:6rem;
-}
 
 #first {
   padding: 8rem 10px 10px;
@@ -432,7 +412,6 @@ i {
   font-size: 50px;
   padding: 2vw;
 }
-
 
 /* Navbar styles with droppdown toggle */
 nav {
@@ -575,7 +554,6 @@ main {
   .container-2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   #about-us {
