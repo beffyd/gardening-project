@@ -203,7 +203,7 @@ p {
 }
 
 #map {
-  padding-top: 7em;
+  padding-top: 4em;
   padding-bottom: 2em;
 }
 
@@ -216,7 +216,6 @@ p {
   border: none;
   padding: 1em;
   text-align: center;
- 
 
 }
 
@@ -323,12 +322,28 @@ button {
 }
 
 #address {
-  width: 30%;
+  width: 100%;
   padding: 1%;
-  background-color: #4a7461b9;
   border-radius: 5px;
   margin: 1%;
   font-size: x-large;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+#location {
+  background-color: #4a7461b9;
+  margin: auto;
+  padding: 2%;
+  border-radius: 2%;
+}
+
+#map {
+  text-align: center;
 }
 
 .jobs-prices-table {
@@ -337,6 +352,10 @@ button {
   flex-wrap: wrap;
   justify-content: space-around;
   font-size: larger;
+}
+
+#contact-footer {
+  padding-top:6rem;
 }
 
 #first {
@@ -413,6 +432,7 @@ i {
   font-size: 50px;
   padding: 2vw;
 }
+
 
 /* Navbar styles with droppdown toggle */
 nav {
@@ -610,7 +630,6 @@ main {
 }
 
 
-
 @media screen and (max-width: 770px) {
   .item-7 {
     display: none;
@@ -632,9 +651,6 @@ main {
     padding-top: 5rem;
   }
 
-  #address {
-    width: 40%;
-  }
 }
 
 @media screen and (max-width: 1794px) {
@@ -687,6 +703,10 @@ main {
   .item-2 {
     margin: auto;
   }
+
+  .item-2 {
+    display: none;
+  }
 }
 
 @media screen and (max-width:1280px) {
@@ -694,6 +714,10 @@ main {
     padding: 6rem 10px 10px;
   }
 }
+
+
+/*MEDIA QUERIES FOR STU INTRO POSITIONING*/
+
 
 @media screen and (max-width:700px) {
   #stu-intro {
