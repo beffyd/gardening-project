@@ -74,7 +74,9 @@ nav {
   flex-wrap: wrap;
 }
 
-
+#form {
+  text-align: center;
+}
 
 /* ABOUT STU */
 
@@ -118,6 +120,7 @@ fieldset {
   width: fit-content;
   margin: 2em;
   border-color: #4a7461;
+  margin: auto;
 }
 
 p,
@@ -200,11 +203,12 @@ p {
   text-align: center;
 }
 
-#map {
-  padding-top: 4em;
+#map-div {
+  padding-top: 7em;
   padding-bottom: 2em;
   text-align: center;
-  }
+
+}
 
 #pls-note {
   border-style: none;
@@ -244,10 +248,8 @@ p {
 #mailing {
   font-family: "Montserrat", sans-serif;
   font-size: xx-large;
-  padding-left: 6vw;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-right: 6vh;
+  text-align: center;
+  margin: 0;
 }
 
 .labelSmall {
@@ -265,7 +267,6 @@ button {
   width: 150px;
   font-size: larger;
   font-family: "Montserrat", sans-serif;
-  border-color: none;
   border-radius: 12%;
 }
 
@@ -294,7 +295,7 @@ button {
 .container-2 {
   display: flex;
   flex-wrap: wrap;
-  }
+}
 
 .container-3 {
   display: flex;
@@ -319,7 +320,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  }
+}
 
 
 #location {
@@ -339,7 +340,7 @@ button {
 
 
 #first {
-  padding: 8rem 10px 10px;
+  padding: 10rem 10px 10px;
 }
 
 input {
@@ -350,6 +351,15 @@ input {
 .labelSmall {
   font-family: "Montserrat", sans-serif;
 }
+
+#mailing-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  text-align: center;
+  margin: 0;
+}
+
 
 /* NAVBAR */
 
@@ -379,7 +389,6 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: right;
 }
 
 header a {
@@ -629,14 +638,41 @@ main {
     padding-top: 5rem;
   }
 
+  .item-2 {
+    display: none;
+  }
+
+  .item-5 {
+    display: none;
+  }
+
 }
+
+
 
 @media screen and (max-width: 1794px) {
   #about-us {
     width: fit-content;
     padding: 1rem;
   }
+
+  .container-2 {
+    flex-direction: column;
+  }
+
+  #mailing-list {
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  #mailing {
+    text-align: center;
+  }
+
+
 }
+
 
 @media screen and (max-width: 1219px) {
   .jobs-prices-table {
@@ -672,6 +708,7 @@ main {
   #about-us {
     max-width: 85%;
     padding: 0.5rem;
+    margin: auto;
   }
 
   #mailing {
@@ -725,6 +762,15 @@ main {
     background-color: #eccd7a8e;
     padding: 0.5px;
 
+
+  }
+}
+
+/*MEDIA QUERY TO BALANCE FORM SPACING */
+
+@media screen and (min-width: 1795px) {
+  #mailing-list {
+    padding-left: 6rem;
 
   }
 }
