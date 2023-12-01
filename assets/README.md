@@ -224,15 +224,15 @@ My teacher Komal
 All pages passed validation on the W3C website(s) 
 https://validator.w3.org/ & https://jigsaw.w3.org/css-validator/
 
-* [Index/Home Page](assets/assets/docs/indexpagew3c.png)
-* [Prices Page](assets/docs/pricespagew3c.png)
-* [Contact Page](assets/docs/contactpagew3c.png)
-* [CSS](assets/docs/cssw3c.png)
+* [Index/Home Page](docs/indexpagew3c.png)
+* [Prices Page](docs/pricespagew3c.png)
+* [Contact Page](docs/contactpagew3c.png)
+* [CSS](docs/cssw3c.png)
 
 
 ## Lighthouse Score
 
-* [Screenshot Here](assets/docs/lighthouse.png)
+* [Screenshot Here](docs/lighthouse.png)
 
 
 ## Manual Testing
